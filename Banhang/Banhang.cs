@@ -9,7 +9,7 @@ namespace Banhang
     public class Banhang : ICustom
     {
         private List<StructInfo> _listStructInfo;
-        private int i = 0;
+        private int i = 1;
         public Form Execute(int menuId)
         {
             Form f = new Form();
