@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{781C34A9-46A9-480D-A673-D77C088E0AFC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FO</RootNamespace>
+    <AssemblyName>FO</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CBSControls, Version=1.0.3771.19215, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CDT\CDT\bin\Debug\CBSControls.dll</HintPath>
+    </Reference>
+    <Reference Include="CDTControl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CDT\CDT\bin\Debug\CDTControl.dll</HintPath>
+    </Reference>
+    <Reference Include="CDTDatabase, Version=1.0.3831.19375, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CDT\CDT\bin\Debug\CDTDatabase.dll</HintPath>
+    </Reference>
+    <Reference Include="CDTLib, Version=1.0.3818.14754, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CDT\CDT\bin\Debug\CDTLib.dll</HintPath>
+    </Reference>
+    <Reference Include="CDTSystem, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CDT\CDT\bin\Debug\CDTSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="DataFactory, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CDT\CDT\bin\Debug\DataFactory.dll</HintPath>
+    </Reference>
+    <Reference Include="DevControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CDT\CDT\bin\Debug\DevControls.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.OfficeSkins.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v7.2.UI, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraEditors.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v7.2.Design, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v7.2, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="DevExpress.XtraScheduler.v7.2.Core, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1" />
+    <Reference Include="FormFactory, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CDT\CDT\bin\Debug\FormFactory.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugins, Version=1.0.3831.19376, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CDT\CDT\bin\Debug\Plugins.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cPhong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cPhong.Designer.cs">
+      <DependentUpon>cPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data1Phong.cs" />
+    <Compile Include="DataCheckOut.cs" />
+    <Compile Include="DataCheckOut1Room.cs" />
+    <Compile Include="DataTTPhong.cs" />
+    <Compile Include="fCheckOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fCheckOut.Designer.cs">
+      <DependentUpon>fCheckOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fChonPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fChonPhong.Designer.cs">
+      <DependentUpon>fChonPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fEarlyCheckout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fEarlyCheckout.Designer.cs">
+      <DependentUpon>fEarlyCheckout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fFO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fFO.Designer.cs">
+      <DependentUpon>fFO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fPOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fPOS.Designer.cs">
+      <DependentUpon>fPOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataFO.cs" />
+    <Compile Include="DataMT62.cs" />
+    <Compile Include="fMT62.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fMT62.designer.cs">
+      <DependentUpon>fMT62.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FO.cs" />
+    <Compile Include="fRoomList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fRoomList.Designer.cs">
+      <DependentUpon>fRoomList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fThanhtoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fThanhtoan.Designer.cs">
+      <DependentUpon>fThanhtoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fTiLeChiemPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTiLeChiemPhong.Designer.cs">
+      <DependentUpon>fTiLeChiemPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fTTPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTTPhong.Designer.cs">
+      <DependentUpon>fTTPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ReadCall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReadCall.Designer.cs">
+      <DependentUpon>ReadCall.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="cPhong.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>cPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fCheckOut.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fCheckOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fChonPhong.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fChonPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fEarlyCheckout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fEarlyCheckout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fFO.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fFO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fPOS.resx">
+      <DependentUpon>fPOS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fMT62.resx">
+      <DependentUpon>fMT62.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fRoomList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fRoomList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fThanhtoan.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fThanhtoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTiLeChiemPhong.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fTiLeChiemPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTTPhong.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>fTTPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReadCall.resx">
+      <DependentUpon>ReadCall.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

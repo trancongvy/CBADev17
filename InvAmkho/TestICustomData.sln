@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestICustomData", "TestICustomData.csproj", "{E27E538F-71EF-4BE3-BBEB-3786D19A6B19}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccProjectUniqueName0 = TestICustomData.csproj
+		SccProjectName0 = \u0022$/CDT/CDT/TestICustomData\u0022,\u0020RACAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E27E538F-71EF-4BE3-BBEB-3786D19A6B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27E538F-71EF-4BE3-BBEB-3786D19A6B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27E538F-71EF-4BE3-BBEB-3786D19A6B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27E538F-71EF-4BE3-BBEB-3786D19A6B19}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
